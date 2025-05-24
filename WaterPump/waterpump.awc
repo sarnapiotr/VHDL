@@ -6,18 +6,19 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="LOCAL___29c82468df9abe010500">waterpump.asdb</database>
+        <database id="LOCAL___c8f231689a1321070500">waterpump.asdb</database>
     </databases>
     <gridshown/>
     <signallists>
         <signallist id="0">
         <signal>/waterpump_tb/clk_tb</signal>
         <signal>/waterpump_tb/water_level_tb</signal>
+        <signal>/waterpump_tb/pump_state_tb</signal>
         </signallist>
     </signallists>
     <timebases>
         <timebase id="0">
-            <time start_time="0" end_time="40617108767" />
+            <time start_time="0" end_time="101542778084" />
         </timebase>
     </timebases>
     <prefbases>
@@ -30,7 +31,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="40000000000" label="Cursor 1" locked="0" />
+            <cursor value="200000000000" label="Cursor 1" locked="0" />
         </cursors>
     </cursorbases>
     <measurementbases>
